@@ -1,0 +1,42 @@
+.container {
+    display: inline;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+header .logo {
+    background-image: url(../img/logo.jpg);
+    min-height: 600px;
+    max-height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 4em;
+    padding: 25px 0px;
+}
+
+header h4 {
+    width: 75%;
+    margin: auto;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+footer p{
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+
+
+    
